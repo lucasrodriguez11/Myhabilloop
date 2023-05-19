@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_settings"
+
+            android:title="Configuración"
+            android:text="Settings"/>
+    </group>
+
+    <item android:title="Tarea">
+        <menu>
+            <item
+                android:id="@+id/nav_biblio_habito"
+
+                android:title="Biblioteca Habitos" />
+            <item
+                android:id="@+id/nav_mascota"
+
+                android:title="Tu Mascota" />
+            <item
+                android:id="@+id/nav_midfulness"
+
+                android:title="Midfulness" />
+        </menu>
+    </item>
+
+    <item android:title="Ayuda">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+
+                android:title="Contacto" />
+        </menu>
+    </item>
+</menu>
