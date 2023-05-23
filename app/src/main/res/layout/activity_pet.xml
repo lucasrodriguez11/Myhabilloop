@@ -6,4 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activities.PetActivity">
 
+    <include layout="@layout/toolbar_mh" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
