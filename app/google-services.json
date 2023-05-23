@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "867460241140",
+    "project_id": "myhabiloop",
+    "storage_bucket": "myhabiloop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867460241140:android:89b47ffe55ca881bdb30a1",
+        "android_client_info": {
+          "package_name": "com.internet.habiloop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867460241140-uio861r3i8f6t08kou5qaafuj1d91o0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA4Ycp3ffNshBQDSu1J3-cG0dcKHcp5T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867460241140-uio861r3i8f6t08kou5qaafuj1d91o0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
