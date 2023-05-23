@@ -13,6 +13,9 @@
         android:theme="@style/Base.Theme.MyHabiloop"
         tools:targetApi="31">
         <activity
+            android:name=".activities.PetActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.HomeActivity"
             android:exported="false" />
         <activity
