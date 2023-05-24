@@ -18,6 +18,8 @@ public class LoginActivity extends AppCompatActivity {
 
         ini_sesion = findViewById(R.id.btnLogin);
 
+
+
         ini_sesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
