@@ -89,7 +89,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void createUser(final String username, final String email, final String password) {
-        Toast.makeText(RegisterActivity.this, "hola", Toast.LENGTH_SHORT).show();
+        ;
 
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
