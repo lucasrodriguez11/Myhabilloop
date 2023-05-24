@@ -55,14 +55,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="INGRESO"
-                android:paddingTop="15dp"
+                android:text="ACCEDER"
+                android:paddingTop="30dp"
                 android:textAlignment="center"
-                android:textSize="18dp"
+                android:textSize="25dp"
                 android:textColor="@color/black"
 
                 android:fontFamily="sans-serif-medium"
                 android:textStyle="bold" />
+
             <LinearLayout
 
                 android:layout_width="match_parent"

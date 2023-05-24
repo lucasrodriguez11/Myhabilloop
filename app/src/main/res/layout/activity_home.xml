@@ -17,13 +17,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hoy es.."
-            android:paddingTop="15dp"
-            android:textAlignment="viewStart"
-            android:textSize="25dp"
             android:layout_marginLeft="2dp"
-            android:textColor="#434343"
             android:fontFamily="sans-serif-medium"
+            android:paddingTop="15dp"
+            android:text="Hoy es.."
+            android:textAlignment="viewStart"
+            android:textColor="#434343"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
 
@@ -72,6 +72,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
-        app:menu="@xml/nav_menu" />
+        app:menu="@menu/nav_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -6,6 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -27,22 +28,22 @@ public class HomeActivity extends AppCompatActivity {
         navigationView = findViewById(R.id.navigation_view);
         Toolbar toolbar = findViewById(R.id.toolbar);
 
-        /*
+
 
          navigationView.setNavigationItemSelectedListener(item -> {
             // Aquí puedes manejar la selección de elementos del menú
-            switch (item.getItemId()) {
-                case R.id.nav_home:
-                    // Acción para la opción 1
-                    return true;
-                case R.id.nav_profile:
-                    // Acción para la opción 2
-                    return true;
-                default:
-                    return false;
-            }
+             int itemId = item.getItemId();
+             if (itemId == R.id.nav_home) {
+
+             } else if (itemId == R.id.nav_biblio_habito) {
+                 startActivity(new Intent(HomeActivity.this,BibliotecaActivity.class));
+             } else {
+                 return false;
+             }
+             return true;
         });
-        */
+
+
 
         // Maneja el clic en el ícono de hamburguesa
         toolbar.setNavigationOnClickListener(view -> {
