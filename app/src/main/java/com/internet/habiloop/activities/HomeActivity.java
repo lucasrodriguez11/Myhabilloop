@@ -37,7 +37,13 @@ public class HomeActivity extends AppCompatActivity {
 
              } else if (itemId == R.id.nav_biblio_habito) {
                  startActivity(new Intent(HomeActivity.this,BibliotecaActivity.class));
-             } else {
+             }
+             else if (itemId == R.id.btncerrarseion) {
+                 startActivity(new Intent(HomeActivity.this,LoginActivity.class));
+             }
+
+             else {
+
                  return false;
              }
              return true;
